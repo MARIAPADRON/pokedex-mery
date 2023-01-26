@@ -64,7 +64,7 @@ const Pokedex =()=>{
         <div className="pokedex">  
 
             <h1>Pokedex</h1>
-            <h2>Welcame {name}, here you can find your favourite pokemon</h2>
+            <h2>Welcome, {name}. Here you can find your favourite pokemon</h2>
             <select name="" id=""  onChange={selectedTypes}>
                 <option disabled selected>Types of Pokemons</option>
                 {
